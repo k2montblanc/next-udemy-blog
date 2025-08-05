@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import PublicHeader from "@/components/layout/PublicHeader";
+import PublicHeader from "@/components/layouts/PublicHeader";
 
 export const metadata: Metadata = {
   title: "Create Next App",

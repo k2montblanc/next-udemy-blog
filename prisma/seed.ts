@@ -1,5 +1,5 @@
 // primsa.対象テーブル名.メソッド のように記述 
-import { PrismaClient } from '../src/generated/prisma'
+import { PrismaClient } from '@prisma/client'
 import * as bcrypt from 'bcryptjs' 
 
 const prisma = new PrismaClient()
