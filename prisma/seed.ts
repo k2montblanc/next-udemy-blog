@@ -26,12 +26,12 @@ async function main() {
         create: [ 
           { title: 'はじめてのブログ投稿', 
             content: 'これは最初のブログ投稿です。Next.jsとPrismaでブログを作成しています。', 
-            topImage: dummyImages[0], 
+            // topImage: dummyImages[0], 
             published: true, 
           }, 
           { title: '2番目の投稿', 
             content: 'ブログの機能を少しずつ追加していきます。認証機能やダッシュボードなども実装予定です。', 
-            topImage: dummyImages[1], 
+            // topImage: dummyImages[1], 
             published: true, 
           }
         ]
